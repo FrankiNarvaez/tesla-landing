@@ -2,16 +2,17 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import MainSection from '../components/MainSection.astro';
+import ModelYSection from '../components/ModelYSection.astro'
 ---
 
 <Layout>
   <Header />
-  <main class="snap-y snap-mandatory relative w-full h-screen overflow-auto">
+  <main class="snap-y snap-mandatory relative w-full h-screen overflow-auto scroll">
     <div class="snap-center">
       <MainSection />
     </div>
     <div class="snap-center">
-      <MainSection />
+      <ModelYSection />
     </div>
     <div class="snap-center">
       <MainSection />
