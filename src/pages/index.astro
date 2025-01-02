@@ -5,9 +5,19 @@ import MainSection from '../components/MainSection.astro';
 ---
 
 <Layout>
-  <main>
-    <Header />
-
-    <MainSection />
+  <Header />
+  <main class="snap-y snap-mandatory relative w-full h-screen overflow-auto">
+    <div class="snap-center">
+      <MainSection />
+    </div>
+    <div class="snap-center">
+      <MainSection />
+    </div>
+    <div class="snap-center">
+      <MainSection />
+    </div>
+    <div class="snap-center">
+      <MainSection />
+    </div>
   </main>
 </Layout>
