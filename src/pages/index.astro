@@ -8,7 +8,7 @@ import Section from '../components/Section.astro';
   <Header />
   <main class="snap-y snap-mandatory relative w-full h-screen overflow-auto scroll">
     <div class="snap-center">
-      <Section title="Disfrute de Tesla" subtitle="Programe una prueba de conducción hoy mismo" color="white">
+      <Section title="Disfrute de Tesla" subtitle="Programe una prueba de conducción hoy mismo" color="white" id="main-section">
         <div slot="footer">
           <a class="text-white border-[3px] border-white bg-white/5 backdrop-blur-xl rounded text-sm font-medium px-12 py-2 hover:bg-white hover:text-black transition-colors" href="">Prueba de conducción</a>
         </div>
@@ -17,7 +17,7 @@ import Section from '../components/Section.astro';
       </Section>
     </div>
     <div class="snap-center">
-      <Section title="Model Y" subtitle="Concertar una prueba de conducción" color="black">
+      <Section title="Model Y" subtitle="Concertar una prueba de conducción" color="black" id="model-y">
         <div class="flex mx-auto gap-x-4" slot="footer">
           <a
             class="text-white bg-slate-700 border-[3px] border-slate-700 rounded text-sm font-medium px-12 py-2 hover:scale-105 transition-all"
